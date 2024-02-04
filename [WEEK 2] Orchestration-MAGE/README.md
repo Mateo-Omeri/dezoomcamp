@@ -38,7 +38,7 @@ Database:
 
 ### Step 1: Docker Compose
 
-First of all I choose tu run all i need (MAGE project, PostgresSQL and also PGAdmin) with Docker Compose. In the [docker](https://github.com/Mateo-Omeri/dezoomcamp/tree/main/%5BWEEK%202%5D%20Orchestration-MAGE/mage) repository you can see all you need to run what you need for the homework. 
+First of all I choose tu run all i need (MAGE project, PostgresSQL and also PGAdmin) with Docker Compose. In the [mage](https://github.com/Mateo-Omeri/dezoomcamp/tree/main/%5BWEEK%202%5D%20Orchestration-MAGE/mage) folder you can see all you need to run what you need for the homework. 
 With regard to MAGE project i used the [template](https://github.com/mage-ai/compose-quickstart) offered by MAGE community. Be sure to rename dev.env file to .env and to not push it to your GitHub repository. This file is where you can put all configuration details for your MAGE project, PostgresSQL and PGAdmin.
 
 PGAdmin is not necessary for this homework, I used only to check that the data was correctly exported to Postgres database
@@ -52,7 +52,7 @@ and go to localhost:6789 for the MAGE UI interface of your project.
 
 ### Step 2: GCP
 
-You need to prepare GCP environment. If you do not already have a Service Account, you need to create one with, at least, the permission to write into the buckets. Then create a JSON key of that account and put it to the folder (DO NOT PUSH IT INTO GITHUB, CHECK IT ALWAYs YOUR .gitignore FILE). See this [tutorial](https://www.youtube.com/watch?v=00LP360iYvE&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb) for more details.
+You need to prepare GCP environment. If you do not already have a Service Account, you need to create one with, at least, the permission to write into the buckets. Then create a JSON key of that account and put it to the mage folder (DO NOT PUSH IT INTO GITHUB, CHECK IT ALWAYs YOUR .gitignore FILE). See this [tutorial](https://www.youtube.com/watch?v=00LP360iYvE&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb) for more details.
 
 ### Step 3: MAGE pipeline
 
