@@ -39,7 +39,7 @@ Database:
 ### Step 1: Docker Compose
 
 First of all I choose tu run all i need (MAGE project, PostgresSQL and also PGAdmin) with Docker Compose. In the [docker](https://github.com/Mateo-Omeri/dezoomcamp/tree/main/%5BWEEK%202%5D%20Orchestration-MAGE/mage) repository you can see all you need to run what you need for the homework. 
-With regard to MAGE project i used the [template](https://github.com/mage-ai/compose-quickstart) offered bu MAGE community. Be sure to rename dev.env file to .env and to not push it to your GitHub repository. This file is where you can put all configuration details for your MAGE project, PostgresSQL and PGAdmin.
+With regard to MAGE project i used the [template](https://github.com/mage-ai/compose-quickstart) offered by MAGE community. Be sure to rename dev.env file to .env and to not push it to your GitHub repository. This file is where you can put all configuration details for your MAGE project, PostgresSQL and PGAdmin.
 
 PGAdmin is not necessary for this homework, I used only to check that the data was correctly exported to Postgres database
 
@@ -47,9 +47,8 @@ All you need to do now is run the command:
 
 ```
     docker compose up
-
 ```
-and check if MAGE went upto the url localhost:6789
+and go to localhost:6789 for the MAGE UI interface of your project.
 
 ### Step 2: GCP
 
@@ -61,7 +60,7 @@ Now it's time to construct the ETL pipeline, to achieve our goal!
 
 How pipeline will look like in the end:
 
-![pipeline](/images/pipeline.png)
+![pipeline](images/pipeline.png)
 
 #### MAGE config
 
