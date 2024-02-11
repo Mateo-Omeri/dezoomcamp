@@ -152,4 +152,4 @@ def test_output(output, *args) -> None:
 
 ### Step 2: GCP
 
-Written all queries that i need for homework. You can find them [here]()
+Written all the queries that i needed for homework. You can find them [here](https://github.com/Mateo-Omeri/dezoomcamp/blob/main/%5BWEEK%203%5D%20DataWarehouse-BigQuery/bigquery.sql)
