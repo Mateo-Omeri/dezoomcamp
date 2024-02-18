@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: data-zoomcamp-410401
+    schema: ny_taxi
+
+      # loaded_at_field: record_loaded_at
+    tables:
+      - name: nytaxi_external_green_2022
+      - name: yellow_cab_data
