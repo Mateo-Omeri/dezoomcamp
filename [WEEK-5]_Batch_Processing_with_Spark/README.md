@@ -40,4 +40,4 @@ Key features and aspects of PySpark include:
 
 # Homework
 
-The goal of this homework is to process and query trips data using Spark. In order to complete the homework I decided to use a Dataproc cluster and run my PySpark job there. Dataproc is a managed cloud service provided by Google Cloud Platform (GCP) for running Apache Spark and Apache Hadoop clusters. It simplifies the process of deploying, managing, and scaling distributed data processing frameworks on the cloud.
+The goal of this homework is to process and query trips data using Spark. In order to complete the homework I decided to use GCP environment, so I stored the data into GCS bucket and I used Dataproc cluster and run my PySpark job there. Dataproc is a managed cloud service provided by Google Cloud Platform (GCP) for running Apache Spark and Apache Hadoop clusters. It simplifies the process of deploying, managing, and scaling distributed data processing frameworks on the cloud.
